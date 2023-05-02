@@ -1,0 +1,77 @@
+*, :after, :before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --theme: rgb(29 36 255);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 20px;
+    width: 400px;
+    height: fit-content;
+    gap: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    color: #444444;
+}
+
+hr{
+    width: 100px;
+    border: 2px solid var(--theme);
+    border-radius: 20px;
+}
+
+p{
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.buttonWrap{
+    background-color: var(--theme);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    user-select: none;
+}
+
+.buttonWrap:hover{
+    cursor: pointer;
+    background-color: rgb(46 56 255);
+}
+
+.buttonWrap:active{
+    background-color: rgb(18 20 255);
+}
+
+.credit {
+    position: absolute;
+    bottom: 20px;
+}
