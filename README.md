@@ -11,7 +11,7 @@ This project is a simple web application that generates random user information.
 ## How to run the project 🚀
 
 - Option 1: Clone the repository using Git and open the `index.html` file in your web browser.
-- Option 2: Access the deployed version of the website by clicking on this link: <https://nonulldev.github.io/RandomUserGenerator/>
+- Option 2: Access the deployed version of the website by clicking on this link: <https://giorgelucasdev.github.io/RandomUserGenerator/>
 
 ## Resources used 🔧
 
